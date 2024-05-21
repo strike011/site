@@ -60,7 +60,8 @@ body {
     text-align: center;
     margin-bottom: 20px; }
     .flex .flex-card iframe {
-      width: 100%; }
+      width: 100%;
+      height: auto; }
   .flex .flex-img {
     width: 100%;
     border-radius: 5px 5px 0 0; }
