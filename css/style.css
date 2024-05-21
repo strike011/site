@@ -54,7 +54,6 @@ body {
   flex-wrap: wrap;
   justify-content: center; }
   .flex .flex-card {
-    width: 24%;
     margin: 3px;
     box-shadow: 0 0 10px #ccc;
     border-radius: 5px;
