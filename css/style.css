@@ -60,7 +60,7 @@ body {
     text-align: center;
     margin-bottom: 20px; }
     .flex .flex-card iframe {
-      width: 240px; }
+      width: 100%; }
   .flex .flex-img {
     width: 100%;
     border-radius: 5px 5px 0 0; }
@@ -83,8 +83,16 @@ p {
   background: #e0b9e7; }
 
 @media (max-width: 420px) {
-  .header {
+  .header-logo img {
     display: none; }
+
+  .header-nav ul {
+    display: block;
+    text-align: center; }
+    .header-nav ul li {
+      width: 100%;
+      padding: 2px;
+      line-height: 45px; }
 
   .container {
     max-width: 100%; }

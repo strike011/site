@@ -91,7 +91,7 @@ body{
         text-align: center;
         margin-bottom: 20px;
         iframe{
-            width: 240px;
+            width: 100%;
         }
     }
     & &-img{
@@ -122,9 +122,23 @@ p{
     
 }
 @media(max-width: 420px){
-    .header {
+    .header-logo img {
         display: none;
+       
+        
     }
+    .header-nav ul{
+        display: block;
+        text-align: center;
+        li{
+           width: 100%; 
+           padding: 2px;
+           line-height: 45px;
+           
+        }
+       
+    }
+    
     .container{
        
         max-width: 100%;
