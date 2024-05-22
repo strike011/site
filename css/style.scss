@@ -27,10 +27,13 @@ body{
 
     img{
         // width: auto;
-        height: auto;
-        margin: 6px 0 10px 25px;
-        width: 180px;
+        
+        padding: 5px;
+        width: 190px;
+        
     }
+
+    
     
     .header-nav{
         // float: right;
@@ -65,11 +68,12 @@ body{
 }
 .container{
     width:1000px;
-    margin:20px auto;
+    margin:25px auto;
+    padding-top: 80px;
     h1{
         text-align: center;
         color: $clear;
-        padding-bottom: 25px;
+        padding-bottom: 20px;
         text-decoration:underline;
         :hover{
             background-color: $primary;
@@ -83,23 +87,24 @@ body{
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
+    
     & &-card{
        
-        margin: 3px;
+        margin: 15px;
         box-shadow: 0 0 10px #ccc;
-        border-radius: 5px;
+        border-radius: 8px;
         text-align: center;
         margin-bottom: 20px;
-        iframe{
-           width: 100%;
-           
-           
+        img{
+            width: 200px;
+            
+
         }
+       
     }
-    & &-img{
-        width: 100%;
-        border-radius: 5px 5px 0 0;
-    }
+          
+     
+   
 }
 .btn{
     text-decoration: none;
@@ -121,6 +126,9 @@ p{
 .footer-img{
     text-align: center; 
     background: $seccundary;
+    .rodape{
+        margin: 0;
+    }
     
 }
 @media(max-width: 420px){

@@ -15,9 +15,8 @@ body {
   justify-content: space-between;
   margin: auto; }
   .header img {
-    height: auto;
-    margin: 6px 0 10px 25px;
-    width: 180px; }
+    padding: 5px;
+    width: 190px; }
   .header .header-nav ul {
     list-style: none;
     margin-top: 28px; }
@@ -39,11 +38,12 @@ body {
 
 .container {
   width: 1000px;
-  margin: 20px auto; }
+  margin: 25px auto;
+  padding-top: 80px; }
   .container h1 {
     text-align: center;
     color: #2c2b2c;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     text-decoration: underline; }
     .container h1 :hover {
       background-color: #da0a0a;
@@ -54,16 +54,13 @@ body {
   flex-wrap: wrap;
   justify-content: center; }
   .flex .flex-card {
-    margin: 3px;
+    margin: 15px;
     box-shadow: 0 0 10px #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: center;
     margin-bottom: 20px; }
-    .flex .flex-card iframe {
-      width: 100%; }
-  .flex .flex-img {
-    width: 100%;
-    border-radius: 5px 5px 0 0; }
+    .flex .flex-card img {
+      width: 200px; }
 
 .btn {
   text-decoration: none;
@@ -81,6 +78,8 @@ p {
 .footer-img {
   text-align: center;
   background: #e0b9e7; }
+  .footer-img .rodape {
+    margin: 0; }
 
 @media (max-width: 420px) {
   .header-logo img {
