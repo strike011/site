@@ -1,5 +1,6 @@
 $primary:#da0a0a;
 $seccundary: #e0b9e7;
+$clear2: rgb(200,200,200);
 $clear:rgb(44, 43, 44);
 $font: arial, verdana, tahoma;
 $size: 18px;
@@ -32,9 +33,7 @@ body{
         width: 190px;
         
     }
-
-    
-    
+            
     .header-nav{
         // float: right;
         ul{
@@ -80,7 +79,6 @@ body{
             border-radius: 5px;
         }
         
-
     }
 }
 .flex{
@@ -102,9 +100,7 @@ body{
         }
        
     }
-          
-     
-   
+                
 }
 .btn{
     text-decoration: none;
@@ -115,7 +111,6 @@ body{
     &:hover{
         background: $primary;
     }
-
     
 }
 p{
@@ -131,15 +126,46 @@ p{
     }
     
 }
+.box{
+    font-family: $font;
+    background-color: $clear2;
+    h2{
+        color: $clear2;
+
+    }
+    
+}
+.nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center; 
+     
+}
+iframe{
+    width: 650px;
+    height: 350px;
+}
+
+
+    
+button{
+    width: 240px;
+    height: 40px;
+    border-radius:5px ;
+    align-items: center;
+    
+}
+
 @media(max-width: 420px){
     .header-logo img {
         display: none;
-       
-        
+               
     }
     .header-nav ul{
         display: block;
         text-align: center;
+        padding: 0px;
+        margin: 0px;
         li{
            width: 100%; 
            padding: 2px;
@@ -158,13 +184,10 @@ p{
         }
         
     }
-     
-              
+                   
     .footer-img{
         width: 100%;
     }
-
     
-
 }
     

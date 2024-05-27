@@ -81,13 +81,36 @@ p {
   .footer-img .rodape {
     margin: 0; }
 
+.box {
+  font-family: arial, verdana, tahoma;
+  background-color: #c8c8c8; }
+  .box h2 {
+    color: #c8c8c8; }
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+iframe {
+  width: 650px;
+  height: 350px; }
+
+button {
+  width: 240px;
+  height: 40px;
+  border-radius: 5px;
+  align-items: center; }
+
 @media (max-width: 420px) {
   .header-logo img {
     display: none; }
 
   .header-nav ul {
     display: block;
-    text-align: center; }
+    text-align: center;
+    padding: 0px;
+    margin: 0px; }
     .header-nav ul li {
       width: 100%;
       padding: 2px;
