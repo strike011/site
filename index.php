@@ -32,7 +32,7 @@
                 (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
         </a>
-              <a href="" class="menu">
+              <a href="javascript:mostrarmenu()" class="menu">
               <i class="fa-solid fa-bars"></i> 
               </a>       
         <nav class="header-nav">
@@ -62,7 +62,7 @@
                     <strong>Ninja Frog</strong>
                 </p>
                 <p>
-                    <a href="ninjafrog.html" title="detalhes" class="btn">
+                    <a href="ninjafrog.php" title="detalhes" class="btn">
                         detalhes 
                     </a>
                 </p>
@@ -77,7 +77,7 @@
                     <strong>jogos2</strong>
                 </p>
                 <p>
-                    <a href="detalhes.html" title="detalhes" class="btn">
+                    <a href="detalhes.php" title="detalhes" class="btn">
                         detalhes
                     </a>
                 </p>
@@ -91,7 +91,7 @@
                     <strong>jogos 3</strong>
                 </p>
                 <p>
-                    <a href="detalhes.html" title="detalhes" class="btn">
+                    <a href="detalhes.php" title="detalhes" class="btn">
                         detalhes
                     </a>
                 </p>
@@ -105,7 +105,7 @@
                     <strong>jogos 4</strong>
                 </p>
                 <p>
-                    <a href="detalhes.html" title="detalhes" class="btn">
+                    <a href="detalhes.php" title="detalhes" class="btn">
                         detalhes
                     </a>
                 </p>
@@ -119,7 +119,7 @@
                     <strong>gamess</strong>
                 </p>
                 <p>
-                    <a href="detalhes.html" title="detalhes" class="btn">
+                    <a href="detalhes.php" title="detalhes" class="btn">
                         detalhes
                     </a>
                 </p>
@@ -133,7 +133,7 @@
                     <strong>games</strong>
                 </p>
                 <p>
-                    <a href="detalhes.html" title="detalhes" class="btn">
+                    <a href="detalhes.php" title="detalhes" class="btn">
                         detalhes
                     </a>
                 </p>
@@ -147,7 +147,7 @@
                     <strong>games</strong>
                 </p>
                 <p>
-                    <a href="detalhes.html" title="detalhes" class="btn">
+                    <a href="detalhes.php" title="detalhes" class="btn">
                         detalhes
                     </a>
                 </p>
@@ -164,6 +164,12 @@
     </footer>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3069212009847136"
      crossorigin="anonymous"></script>
+     <script>
+        function mostrarmenu(){
+            document.querySelector(".header-nav").classList.toggle("mostrar");
+
+        }
+     </script>
      
     
 </body>
