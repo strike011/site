@@ -13,6 +13,7 @@ $size: 18px;
 body{
     font: $size $font;
 }
+
 .header{
     width: 100%;
     height: 75px;
@@ -95,6 +96,7 @@ body{
         margin-bottom: 20px;
         img{
             width: 200px;
+            height: 170px;
             
 
         }
@@ -155,12 +157,23 @@ button{
     align-items: center;
     
 }
+.menu {
+    display: none;
+
+}
+
+   
 
 @media(max-width: 420px){
     .header-logo img {
         display: none;
                
     }
+    .header-nav{
+        display: none;
+
+    }
+
     .header-nav ul{
         display: block;
         text-align: center;
@@ -187,6 +200,22 @@ button{
                    
     .footer-img{
         width: 100%;
+    }
+    .menu{
+        display: block;
+        border: 3px solid $seccundary;
+        padding: 10px 15px;
+        color: $seccundary;
+        position: fixed;
+        right: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        
+        
+        
+    }
+    .mostrar{
+        display: block;
     }
     
 }

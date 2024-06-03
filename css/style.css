@@ -60,7 +60,8 @@ body {
     text-align: center;
     margin-bottom: 20px; }
     .flex .flex-card img {
-      width: 200px; }
+      width: 200px;
+      height: 170px; }
 
 .btn {
   text-decoration: none;
@@ -102,8 +103,14 @@ button {
   border-radius: 5px;
   align-items: center; }
 
+.menu {
+  display: none; }
+
 @media (max-width: 420px) {
   .header-logo img {
+    display: none; }
+
+  .header-nav {
     display: none; }
 
   .header-nav ul {
@@ -122,6 +129,19 @@ button {
       grid-template-columns: 100%; }
 
   .footer-img {
-    width: 100%; } }
+    width: 100%; }
+
+  .menu {
+    display: block;
+    border: 3px solid #e0b9e7;
+    padding: 10px 15px;
+    color: #e0b9e7;
+    position: fixed;
+    right: 10px;
+    margin-top: 20px;
+    border-radius: 5px; }
+
+  .mostrar {
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
